@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 # Create your models here.
 class Categoria(models.Model):
@@ -13,3 +14,4 @@ class Producto(models.Model):
     # RESTRICT: Error si se borra sin antes borrar los productos
     # SET_NULL: Si borro la categoria, pone el campo categoria en null
     categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
+    creado_en = models.DateTimeField(default=timezone.now)
