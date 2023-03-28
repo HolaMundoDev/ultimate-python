@@ -17,13 +17,17 @@
 
   <tbody>
     {% for producto in productos %}
-      <tr>
-        <td>{{producto.nombre}}</td>
-        <td>{{producto.stock}}</td>
-        <td>{{producto.puntaje}}</td>
-        <td>{{producto.categoria}}</td>
-      </tr>
-      {% endfor %}
+    <tr>
+      <td>
+        <a href="{% url 'productos:detalle' producto.id %}">
+          {{producto.nombre}}
+        </a>
+      </td>
+      <td>{{producto.stock}}</td>
+      <td>{{producto.puntaje}}</td>
+      <td>{{producto.categoria}}</td>
+    </tr>
+    {% endfor %}
   </tbody>
 </table>
 
