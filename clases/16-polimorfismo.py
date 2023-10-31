@@ -1,18 +1,9 @@
-from abc import ABC, abstractmethod
-
-
-class Model(ABC):
-    @abstractmethod
-    def guardar(self):
-        pass
-
-
-class Usuario(Model):
+class Usuario():
     def guardar(self):
         print("Guardando en BBDD")
 
 
-class Sesion(Model):
+class Sesion():
     def guardar(self):
         print("Guardando en Archivo")
 
