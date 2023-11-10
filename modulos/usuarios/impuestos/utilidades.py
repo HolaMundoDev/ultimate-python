@@ -1,6 +1,6 @@
-def guardar():
-    print("guardando")
+from ..gestion.crud import guardar
 
 
 def pagar_impuestos():
     print("pagando impuestos")
+    guardar()
