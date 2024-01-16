@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 sendgrid = "*"
+twilio = "*"
 
 [dev-packages]
 
