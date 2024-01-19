@@ -29,5 +29,9 @@ import requests
 # print(r.status_code)
 
 url = "https://jsonplaceholder.typicode.com/users/2"
-r = requests.delete(url, timeout=10)
+apikey = "123456"
+headers = {
+    "Authorization": f"Bearer {apikey}",
+}
+r = requests.delete(url, timeout=10, headers=headers)
 print(r.status_code)
