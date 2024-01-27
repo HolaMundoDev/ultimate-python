@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "196b2e30bc30cad2b9fcdfc55abd9a42a260938c9798d447d8c69ba902aaa7d2"
+            "sha256": "a92062e88e165cb5746c68532ecccd67691cf1b636c4070f1bde87ac10fddaa4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -129,6 +129,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==23.2.0"
+        },
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051",
+                "sha256:b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed"
+            ],
+            "index": "pypi",
+            "version": "==4.12.3"
         },
         "certifi": {
             "hashes": [
@@ -437,6 +445,14 @@
             "index": "pypi",
             "version": "==6.11.0"
         },
+        "soupsieve": {
+            "hashes": [
+                "sha256:5663d5a7b3bfaeee0bc4372e7fc48f9cff4940b3eec54a6451cc5299f1097690",
+                "sha256:eaa337ff55a1579b6549dc679565eac1e3d000563bcb1c8ab0d0fefbc0c2cdc7"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==2.5"
+        },
         "starkbank-ecdsa": {
             "hashes": [
                 "sha256:9399c3371b899d4a235b68a1ed7919d202fbf024bd2c863ae8ebdad343c2a63a"
@@ -445,11 +461,11 @@
         },
         "twilio": {
             "hashes": [
-                "sha256:0c079601b972cca25dbe0e259d5c4a01c94795842f6b9f1d02c82269019d7cbb",
-                "sha256:6dfafb60e7a89ad19d2fc4055ce2b86215d30fc68d88452fa588897de8608c71"
+                "sha256:28e3a743da18d5b298c9b9fb9e922404a60f8091441c5e0aa35bfefc46411370",
+                "sha256:ccdf78b634dff13fd50b33bafd254a9dc2fb492c6b06839683e73f09ec110ec6"
             ],
             "index": "pypi",
-            "version": "==8.11.1"
+            "version": "==8.12.0"
         },
         "urllib3": {
             "hashes": [
