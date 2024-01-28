@@ -8,6 +8,7 @@ sendgrid = "*"
 twilio = "*"
 requests = "*"
 beautifulsoup4 = "*"
+openpyxl = "*"
 
 [dev-packages]
 
